@@ -202,8 +202,7 @@ body {
 }
 
 .modal {
-    display: inline-flex;
-    flex-direction: row-reverse;
+    display: block;
     position: relative;
 
     width: 528px;
@@ -224,6 +223,9 @@ body {
 }
 
 .close-button {
+    position: absolute;
+    right: 8px;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -245,6 +247,34 @@ body {
 
     cursor: pointer;
 }
+
+.modal-title {
+    margin: 32px 0 0 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.modal-input {
+    display: flex;
+    margin: 12px 0 10px 0;
+}
+
+.input-label {
+    display: block;
+    width: 100%;
+
+}
+
+.input-item {
+    display: block;
+    height: 58px;
+    margin-bottom: 10px;
+}
+
+.policy-link {
+    text-decoration: underline;
+}
+
 
 /* Преимущества и примеры */
 
