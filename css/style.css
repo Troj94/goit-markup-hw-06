@@ -308,6 +308,8 @@ input[type="checkbox"] {
 .input-label:focus {
     background-color: var(--white-text);
     cursor: pointer;
+    border-color: var(--hover-text);
+    border-radius: 4px;
 }
 
 .input-label:hover + svg,
