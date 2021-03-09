@@ -291,11 +291,11 @@
         </div>
 
         <!--Форма-->
-        <div>
-          <form action="">
-            <label class="footer-social-title" for="email"
-              >подпишитесь на рассылку</label
-            >
+        <form class="form" action="">
+          <label class="footer-social-title" for="email"
+            >подпишитесь на рассылку
+          </label>
+          <div class="input-button">
             <input
               class="footer-input-area"
               type="email"
@@ -303,9 +303,14 @@
               id="email"
               placeholder="E-mail"
             />
-            <button class="hero-button footer-button">Подписаться</button>
-          </form>
-        </div>
+            <button class="hero-button footer-button">
+              <span>Подписаться</span>
+              <svg>
+                <use href="./img/icons/symbol-defs.svg#icon-send"></use>
+              </svg>
+            </button>
+          </div>
+        </form>
       </div>
     </footer>
   </body>
