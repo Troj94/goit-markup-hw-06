@@ -963,7 +963,7 @@ body {
     cursor: pointer;
 }
 
-.projects-item:hover .overlay,
+.projects-item a:hover .overlay,
 .projects-item a:focus .overlay{
     transform: translateY(-100%);
 }
