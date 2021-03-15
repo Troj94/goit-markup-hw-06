@@ -520,7 +520,6 @@ body {
     padding: 0 15px;
     margin: 0 auto;
     display: flex;
-    height: 132px;
     align-items: baseline;
 }
 
@@ -559,8 +558,7 @@ body {
 .footer-list {
     width: 231px;
 
-    margin-top: 20px;
-    margin-bottom: 0;
+    margin: 0;
 }
 
 .footer-item {
@@ -613,6 +611,7 @@ body {
     background-color: inherit;
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
+    color: var(--white-text);
 }
 
 .input-button {
@@ -663,7 +662,7 @@ body {
 .modal {
     position: absolute;
 
-    padding: 12px 39px 0 41px;
+    padding: 40px;
 
     width: 528px;
     height: 581px;
@@ -689,7 +688,7 @@ body {
     width: 30px;
     height: 30px;
 
-    margin: -4px 8px 0 0;
+    margin: -32px 8px 0 0;
     padding: 0;
     cursor: pointer;
     color: #000;
@@ -716,9 +715,13 @@ body {
 }
 
 .modal-title {
-    padding: 28px 0 12px 0;
     margin: 0;
+    padding-bottom: 12px;
+
+    font-style: normal;
+    font-weight: bold;
     font-size: 20px;
+    line-height: 23px;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -739,6 +742,7 @@ body {
 }
 
 .input-item label {
+    display: inline-block;
     font-size: 12px;
     color: var(--modal-text);
 }
@@ -748,8 +752,7 @@ body {
     display: block;
     height: 120px;
 
-    padding-top: 12px;
-    padding-left: 18px;
+    padding: 12px 18px;
 }
 
 .input-item svg {
@@ -831,10 +834,6 @@ body {
 
 .checkbox:focus {
     outline: none;
-}
-
-.policy-text {
-    margin-right: 4px;
 }
 
 .policy-link {
